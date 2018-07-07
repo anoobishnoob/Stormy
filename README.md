@@ -6,7 +6,7 @@ Right now this is location locked in Vancouver Washington, but moving forward on
 
 
 
-#///////////////////////////////Update////////////////////////////////
+# ///////////////////////////////Update////////////////////////////
 
 
 I have made a few changes to make this app not location locked, but because I am using an API key, and I would prefer not to leak my key. I am probably not going to link this new one here, but it was a success. If I come up with a new strategy that doesn't use google play services, then I will use that.
