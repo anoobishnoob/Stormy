@@ -12,3 +12,8 @@ Right now this is location locked in Vancouver Washington, but moving forward on
 I have made a few changes to make this app not location locked, but because I am using an API key, and I would prefer not to leak my key. I am probably not going to link this new one here, but it was a success. If I come up with a new strategy that doesn't use google play services, then I will use that.
 
 Probably gonna have to use the Android built in location features, but I don't know how to do that yet.
+
+
+# ///////////////////////////////Update////////////////////////////
+
+the more I have gotten into android the more I have noticed some major hurdles like saved instance state etc. so I will add that to this app very soon
