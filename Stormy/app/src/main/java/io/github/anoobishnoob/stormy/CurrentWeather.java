@@ -6,6 +6,9 @@ import java.util.TimeZone;
 
 /**
  * Created by saqan on 6/25/2018.
+ *
+ *
+ *  Samme fix this very soon
  */
 
 public class CurrentWeather {
