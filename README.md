@@ -5,15 +5,7 @@ Simple Weather App
 Right now this is location locked in Portland Oregon, but moving forward one of the first big changes I need to make is that it will detect location, and fill in the correct location based on that.
 
 
+# Update
+I have fixed the bug that was going on, and I have been working up a solution to getting this not region locked should be out in the next few days. 
 
-# ///////////////////////////////Update////////////////////////////
-
-
-I have made a few changes to make this app not location locked, but because I am using an API key, and I would prefer not to leak my key. I am probably not going to link this new one here, but it was a success. If I come up with a new strategy that doesn't use google play services, then I will use that.
-
-Probably gonna have to use the Android built in location features, but I don't know how to do that yet.
-
-
-# ///////////////////////////////Update////////////////////////////
-
-the more I have gotten into android the more I have noticed some major hurdles like saved instance state etc. so I will add that to this app very soon
+Next thing is to try to figure out a way of turning the ohone and having like 5 or 7 days shown or 5 or 7 times and I haven't really made up my mind as to which one yet
