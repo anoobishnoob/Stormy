@@ -6,6 +6,7 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.util.Log;
 
 public class MyLocation {
     Timer timer1;
@@ -13,6 +14,7 @@ public class MyLocation {
     LocationResult locationResult;
     boolean gps_enabled=false;
     boolean network_enabled=false;
+    //TODO: fix security issues
 
     public boolean getLocation(Context context, LocationResult result)
     {
@@ -20,6 +22,7 @@ public class MyLocation {
         locationResult=result;
         if(lm==null)
             lm = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
+        Log.d(String.valueOf(lm),"lm value");
 
         //exceptions will be thrown if provider is not permitted.
         try{gps_enabled=lm.isProviderEnabled(LocationManager.GPS_PROVIDER);}catch(Exception ex){}
@@ -90,6 +93,7 @@ public class MyLocation {
             if(net_loc!=null){
                 locationResult.gotLocation(net_loc);
                 return;
+
             }
             locationResult.gotLocation(null);
         }
