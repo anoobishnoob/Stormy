@@ -4,6 +4,7 @@ import android.content.Context;
 import android.database.CrossProcessCursor;
 import android.databinding.DataBindingUtil;
 import android.graphics.drawable.Drawable;
+import android.location.Location;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.support.v7.app.AlertDialog;
@@ -171,8 +172,18 @@ public class MainActivity extends AppCompatActivity {
         getForecast(latitude,longitude);
     }
 
+    MyLocation.LocationResult locationResult = new MyLocation.LocationResult(){
+        @Override
+        public void gotLocation(Location location){
+            //Got the location!
 
+        }
 
+    };
 
+    /*
+    MyLocation myLocation = new MyLocation();
+    myLocation.getLocation(this, locationResult);
+*/
 
 }
