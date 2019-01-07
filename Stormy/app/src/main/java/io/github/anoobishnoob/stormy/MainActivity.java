@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getForecast(latitude, longitude);
-        Log.d(TAG, "Main UI code is running, yay!");
+        //Log.d(TAG, "Main UI code is running, yay!");
 
 
     }
@@ -170,5 +170,9 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this,"refreshing data", Toast.LENGTH_LONG).show();
         getForecast(latitude,longitude);
     }
+
+
+
+
 
 }
