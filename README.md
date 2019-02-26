@@ -13,3 +13,5 @@ Next thing is to try to figure out a way of turning the ohone and having like 5 
 
 # Update 
 I need to actually get an android to test my apps on because I can't use the location testing without it being a real device.
+
+gosh somone please hire me so I can build out the rest of this app.
