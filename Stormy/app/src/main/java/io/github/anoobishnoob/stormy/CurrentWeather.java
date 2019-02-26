@@ -8,8 +8,9 @@ import java.util.TimeZone;
  * Created by saqan on 6/25/2018.
  *
  *
- *  Samme fix this very soon
+ *  fixed
  */
+public CurrentWeather() {
 
 public class CurrentWeather {
     private String locationLabel;
@@ -21,7 +22,6 @@ public class CurrentWeather {
     private String summary;
     private String timeZone;
 
-    public CurrentWeather() {
     }
 
     public CurrentWeather(String locationLabel, String icon, long time, double temperature,
