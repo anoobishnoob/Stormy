@@ -13,7 +13,6 @@ import java.util.TimeZone;
  *  as of 7/19/2023 this is broken again because I have not touched the app in 5 years lol.
  */
 public CurrentWeather() {
-
 public class CurrentWeather {
     private String locationLabel;
     private String icon;
@@ -24,11 +23,8 @@ public class CurrentWeather {
     private String summary;
     private String timeZone;
 
-    }
-
     public CurrentWeather(String locationLabel, String icon, long time, double temperature,
                           double humidity, double precipChance, String summary, String timeZone) {
-
         this.locationLabel = locationLabel;
         this.icon = icon;
         this.time = time;
@@ -38,6 +34,16 @@ public class CurrentWeather {
         this.summary = summary;
         this.timeZone = timeZone;
     }
+
+    public CurrentWeather() {
+        // Default constructor with no parameters
+        // Empty method body
+    }
+
+    // Rest of the code remains the same...
+    // (getters, setters, getIconId(), getFormattedTime(), etc.)
+}
+
 
     public CurrentWeather() {
 
@@ -157,3 +163,4 @@ public class CurrentWeather {
         this.summary = summary;
     }
 }
+
