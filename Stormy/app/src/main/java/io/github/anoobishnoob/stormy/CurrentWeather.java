@@ -9,6 +9,8 @@ import java.util.TimeZone;
  *
  *
  *  fixed
+ *
+ *  as of 7/19/2023 this is broken again because I have not touched the app in 5 years lol.
  */
 public CurrentWeather() {
 
@@ -35,6 +37,10 @@ public class CurrentWeather {
         this.precipChance = precipChance;
         this.summary = summary;
         this.timeZone = timeZone;
+    }
+
+    public CurrentWeather() {
+
     }
 
     public String getTimeZone() {
